@@ -106,7 +106,6 @@ html, body {
   width: 20px;
   height: 20px;
   border-radius: 60%;
-  
 }
 
 .circle.light-grey {
@@ -116,8 +115,47 @@ html, body {
 
 .circle.navy-blue {
   background-color: navy;
-
   border: 1px solid navy;
+}
+
+.dimensions-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none;
+  padding: 6px;
+  border: 1px solid #645c5c;
+  margin: 5px 0;
+  text-align: center;
+  width: 80%; /* Set the width to your desired value */
+  max-width: 300px; /* Optionally, set a max-width */
+  margin: 2px; /* Center the section horizontally */
+}
+
+.dimensions {
+  display: flex;
+  gap: 20px;
+}
+
+.dimension {
+  text-align: center;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+}
+
+.value {
+  display: block;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.view-inches {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
 }
 
 .actions {
@@ -128,16 +166,6 @@ html, body {
   margin-top: 20px;
 }
 
-.divided-button {
-  grid-column: 1; 
-  padding: 10px 20px;
-  width: 150px;
-  height: 50px;
-  background-color: #f0f0f0;
-  border: none;
-  cursor: pointer;
-  color: black;
-}
 
 .price-bold {
   grid-column: 1; 
@@ -174,8 +202,6 @@ html, body {
   font-size: 18px;
 }
 
-
-
 .color-options {
   display: flex;
   gap: 10px;
@@ -204,11 +230,17 @@ html, body {
   margin-top: 20px;
 }
 
-.add-to-cart, .buy-now {
+.add-to-cart {
   padding: 10px 20px;
-  background-color: #1b1b1d;
+  background-color:rgb(14, 13, 13);
   color: white;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+.buy-now {
+  padding:10px 20px;
+  background-color: white;
+  color:black;
+  border-radius: 5px
 }
