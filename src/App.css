@@ -1,0 +1,77 @@
+/* src/WudoUI.css */
+
+.container {
+  background-color: #e0e0e0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radio-buttons input[type="radio"] {
+  margin: 0 5px;
+}
+
+.input-box input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity-controls .btn {
+  padding: 10px 15px;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.quantity-controls .quantity {
+  padding: 0 20px;
+}
+
+.color-options .color-btn {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.color-options .color-btn.white {
+  background-color: #fff;
+}
+
+.color-options .color-btn.black {
+  background-color: #000;
+}
